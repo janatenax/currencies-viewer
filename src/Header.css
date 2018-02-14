@@ -1,0 +1,37 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.App-header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: white;
+}
+.App-title {
+  font-size: 1.5em;
+}
+.App-menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+.App-menu > li {
+  display: inline-block;
+  padding: 0 30px;
+}
+.App-menu > li > a {
+  text-decoration: none;
+  color: lightblue;
+}
+.App-menu > li > a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
